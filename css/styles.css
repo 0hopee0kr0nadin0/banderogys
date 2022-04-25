@@ -1,0 +1,245 @@
+
+:root {
+    --logo-text-color: #010101;
+    --primary-text-color: #33373A ;
+    --accent-color: #FF6B0A;
+    --button-text-color: #FFFFFF;
+    --primary-bg-color: #FFFFFF;
+    --footer-bg-color: linear-gradient(90deg, #FFFFFF 0%, #C6DCE9 99.96%, #C6DCE9 99.97%, #CCE0EB 99.98%, #D3E4EE 99.99%, #BBD5E4 100%);
+    --main-bg-color: linear-gradient(90deg, #FCFEFF 0%, #A5DEFF 100%);
+    --modal-input-frame-color: #005BBB;
+    --modal-bg-color: rgba(51, 55, 58, 0.7);
+}
+
+
+/* main */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.main-page {
+    height: 100%;
+    width: 100%;
+    background: var(--main-bg-color);
+    display:flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 32px;
+    margin-bottom: 56px;
+    margin-left: 92px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-text {
+    margin-left: 16px;
+    color: var(--logo-text-color);
+}
+
+.banderogys-container {
+    color: var(--primary-bg-color);
+    background-color: var(--primary-bg-color);
+    padding: 40px 60px;
+    align-self: center;
+    margin-left: 95px;
+}
+
+.banderogys-greeting {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--primary-text-color);
+
+    margin-top: 90px ;
+    margin-bottom: 16px;
+}
+
+.banderogys-start-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: var(--accent-color);
+
+    margin-bottom: 40px;
+}
+
+.banderogys-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+
+    color: var(--primary-text-color);
+
+    margin-bottom: 24px;
+}
+
+.banderogys-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--primary-text-color);
+
+    margin-bottom: 48px;
+}
+
+.banderogys-launch {
+    border-radius: 8px;
+    background-color:var(--accent-color);
+    color: var(--button-text-color);
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.main-page-row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banderogys-img {
+    width: 690px;
+    height: 720px;
+    align-self: flex-end;
+}
+
+.gys-facts {
+    padding: 40px 0 72px 0;
+
+    /* центрування */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* .ukr-logo {
+
+} */
+
+.gys-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    margin: 60px auto;
+    height: 40px;
+
+    color: var(--primary-text-color);
+}
+
+.gys-descr {
+    font-size: 16px;
+    line-height: 24px;
+    width: 875px;
+    text-align: center;
+
+    color: var(--primary-text-color);
+}
+
+.gys-facts-row {
+    width: 1170px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.gys-facts-item {
+    margin: 1%;
+    width: 374px;
+}
+
+.facts-item-img {
+    margin-bottom: 36px;
+}
+
+.facts-item-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+
+    color: var(--primary-text-color);
+
+    margin-top: 12px;
+    margin-bottom: 56px;
+}
+
+.facts-item-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 280px;
+    text-align: center;
+    /* display: flex;
+    align-self: center; */
+
+    color: var(--primary-text-color);
+}
+
+.victory-footer {
+    display: flex;
+    justify-content: center;
+    background: var(--footer-bg-color);
+}
+
+.victory-bg {
+    width: 1170px;
+    
+    padding: 70px 0;
+    margin-bottom: 72px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    margin-bottom: 52px;
+    margin-top: 72px;
+
+    color: var(--primary-text-color);
+
+}
+
+.victory-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 875px;
+    text-align: center;
+
+    color: var(--primary-text-color);
+}
